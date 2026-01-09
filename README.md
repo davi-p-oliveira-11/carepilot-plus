@@ -1,16 +1,96 @@
-# React + Vite
+# 🏥 Medical Appointment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![MERN](https://img.shields.io/badge/Stack-MERN-informational)
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node](https://img.shields.io/badge/Backend-Node.js-green)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Currently, two official plugins are available:
+A full-stack medical appointment booking platform built with the **MERN stack**, designed to simulate real-world workflows for patients, doctors, and administrators.  
+The project focuses on **role-based access**, **appointment management**, and **online payments**, following production-inspired practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👤 Patient
+- User registration and authentication
+- Browse doctors by speciality
+- Book and cancel appointments
+- Manage personal profile
+- View appointment history
 
-## Expanding the ESLint configuration
+### 🧑‍⚕️ Doctor
+- Secure doctor dashboard
+- View and manage scheduled appointments
+- Update professional profile
+- Track earnings and activity
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Admin
+- Admin authentication and dashboard
+- Manage doctors (add, update, remove)
+- View and manage all appointments
+- Platform-level oversight
+
+### 💳 Payments
+- Online appointment payment integration
+- Secure payment flow
+- Appointment status tracking
+
+---
+
+## 🧱 Tech Stack
+
+### Frontend
+- React
+- Tailwind CSS
+- React Router
+- Context API
+
+### Backend
+- Node.js
+- Express
+- MongoDB + Mongoose
+- JWT Authentication
+
+---
+
+## 🏗️ Project Structure
+
+To be updated
+
+
+---
+
+## 🔐 Authentication & Authorization
+
+The platform supports **three distinct roles**:
+
+- **Patient** – Book and manage appointments
+- **Doctor** – Manage availability and appointments
+- **Admin** – Full system control
+
+Access to routes and features is protected using **JWT-based authentication** and role checks.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js
+- MongoDB
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/davi-p-oliveira-11/carepilot-plus
+
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
