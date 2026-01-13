@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
-      <h1 className="text-3xl sm:text-4xl font-bold tracking-wide">
+      <h1 onClick={()=>navigate('/')} className="text-3xl sm:text-4xl font-bold tracking-wide">
         Carepilot<span className="text-primary text-4xl">+</span>
       </h1>
       <ul className="hidden md:flex items-start gap-5 font-medium">
